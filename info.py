@@ -19,9 +19,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7880571626:AAF9XmC9mnN1Ab33T1MIkfg6ac0j_gr
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://envs.sh/nsX.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-WEL_VID = environ.get("WEL_VID", "https://t.me/How_To_Open_Linkl")
-SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/nsX.jpg")
+WEL_VID = environ.get("WEL_VID", "https://envs.sh/nsX.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/nsX.jpg")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002318167392'))

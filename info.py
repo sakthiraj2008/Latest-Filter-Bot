@@ -18,7 +18,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7880571626:AAF9XmC9mnN1Ab33T1MIkfg6ac0j_gr
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://envs.sh/nsX.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', '')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "")
 WEL_VID = environ.get("WEL_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "")
@@ -89,7 +89,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+eBzYtdaY7Bc2ZDVl') # S
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
